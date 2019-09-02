@@ -1,0 +1,18 @@
+.post {
+    font-size: 13px;
+}
+
+.post img {
+    width: 30px;
+    height: 30px;
+}
+
+.post {
+    padding: 5px;
+}
+
+.postText {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}

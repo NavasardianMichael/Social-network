@@ -1,0 +1,48 @@
+.pageNumbersContainer {
+    margin-top: 0.5%;
+    width: 80%
+}
+
+.pageNumbers {
+    padding: 0.5%;
+    cursor: pointer;
+}
+
+.pageNumbers:hover {
+    background: lightblue;
+    transition: ease-out 0.5s;
+}
+
+.activePageNumber {
+    background: lightblue;
+}
+
+.userBlock1 img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.userBlock1 button {
+    display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+.userBlock1 button:hover {
+    background: lightblue;
+    transition: ease-out 0.5s;
+}
+
+.userBlock1, .userBlock2 {
+    display: inline-block;
+    margin-top: 15px  
+}
+.userBlock2 {
+    position: absolute;
+}
+

@@ -1,0 +1,25 @@
+.message, .formIcon {
+    display: inline-block;
+}
+
+.message {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.fromIcon {
+    background-color: #F0F8FF;
+    width: 5px;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    transform: rotate(45deg);
+    position: relative;
+    top: -13px;
+    left: 2.5px;
+}

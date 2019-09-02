@@ -1,0 +1,40 @@
+.header {
+  background-color: #D1EEEE;
+  grid-area: h;
+}
+.header img {
+	width: 60px;
+	height: 60px;
+}
+.loginBlock, .logBlock, .notAuthLogin, .header a {
+	float: right;
+}
+.authLogin {
+	margin: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.logBlock , {
+	margin: 0 10px;
+	cursor: pointer;
+}
+.logout {
+	padding: 5px 10px 
+}
+.logout {
+	cursor: pointer;
+}
+.logout:hover {
+	background: lightblue;
+}
+.notAuthLogin {
+	margin: 3px 15px;
+	cursor: pointer;
+}
+.signUp {
+	padding-top: 25px
+}
+.notAuthLogin a {
+	text-decoration: none;
+	color: black
+}

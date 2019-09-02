@@ -1,0 +1,23 @@
+.loginArea input, .loginArea button {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.loginArea input {
+    background: transparent;
+}
+
+.loginArea button {
+    background: lightblue;
+    border: unset;
+}
+
+.errorMessage {
+    color: red
+}
+
+.rememberMeCheckbox input {
+    display: inline;
+}

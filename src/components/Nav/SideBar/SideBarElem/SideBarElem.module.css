@@ -1,0 +1,15 @@
+.friend {
+    display: inline-block;
+    margin: 10px;
+    width: 40px;
+    overflow: hidden; 
+}
+.friend img {
+    width: 30px;
+    height: 30px;
+    display: block;		               
+    margin: 0 auto;             
+}
+.friendName {
+	text-align: center;
+}

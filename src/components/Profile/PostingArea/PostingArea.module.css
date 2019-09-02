@@ -1,0 +1,11 @@
+.postingArea {
+    margin: 20px 10px 10px 10px;
+}
+textarea {
+ margin-top: 10px;
+}
+.header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}

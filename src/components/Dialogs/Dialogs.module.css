@@ -1,0 +1,36 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.header {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.dialogsItems {
+    border-right: 1px solid lightgrey;
+    font-weight: 500
+}
+
+.dialog {
+    margin: 10px 0 50px 10px;
+}
+
+.dialog a {
+    text-decoration: none;
+    color: black;
+}
+
+a.activeLink {
+    color: gray;
+}
+
+.newMessageArea {
+    float: right;
+    margin: 10px;
+}
+
+.newMessageArea textarea {
+    display: block;
+}
