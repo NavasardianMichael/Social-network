@@ -6,13 +6,15 @@ const SET_USERS='SET-USERS';
 const GET_USERS_COUNT='GET-USERS-COUNT';
 const SET_CURRENT_PAGE_NUMBER='SET-CURRENT-PAGE-NUMBER';
 const SET_FETCHING_STATE='SET-FETCHING-STATE';
+const SET_CURRENT_PAGE_NUMBERS_DECADE='SET-CURRENT-PAGE-NUMBERS-DECADE';
 
 let initialState = {
     users: [],
     usersCount: 0,
     pageSize: 10,
     currentPageNumber: 1,
-    isFetching: false
+    currentPageNumbersDecade: 1,
+    isFetching: false,
 };
 
 let UsersReducer = (state = initialState , action) => {
@@ -57,10 +59,17 @@ let UsersReducer = (state = initialState , action) => {
                 ...state,
                 currentPageNumber: action.pageNumber
             }
+
         case SET_FETCHING_STATE:
             return {
                 ...state,
                 isFetching: action.isFetching
+            }
+
+        case SET_CURRENT_PAGE_NUMBERS_DECADE:
+            return {
+                ...state,
+                currentPageNumbersDecade: action.currentPageNumbersDecade
             }
 
         default:
@@ -101,6 +110,13 @@ export let setFetchingState = (isFetching) => {
     return {
         type: SET_FETCHING_STATE,
         isFetching: isFetching
+    }
+};
+
+export let SetCurrentPageNumbersDecade = (currentPageNumbersDecade) => {
+    return {
+        type: SET_CURRENT_PAGE_NUMBERS_DECADE,
+        currentPageNumbersDecade: currentPageNumbersDecade
     }
 };
 
