@@ -1,0 +1,31 @@
+.pageNumbersContainer {
+    margin-top: 0.5%;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.pageNumbers {
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pageNumbers:hover {
+    background: lightblue;
+    transition: ease-out 0.5s;
+}
+
+.activePageNumber {
+    background: lightblue;
+}
+
+.pageNumbersDecadeChangeButton {
+	cursor: pointer;
+	padding: 5px 10px;
+    user-select: none;
+}
+
+.pageNumbersDecadeChangeButton:hover {
+	background: lightblue;
+    transition: ease-out 0.5s;
+}
