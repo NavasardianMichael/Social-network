@@ -1,22 +1,3 @@
-.pageNumbersContainer {
-    margin-top: 0.5%;
-    width: 80%
-}
-
-.pageNumbers {
-    padding: 0.5%;
-    cursor: pointer;
-}
-
-.pageNumbers:hover {
-    background: lightblue;
-    transition: ease-out 0.5s;
-}
-
-.activePageNumber {
-    background: lightblue;
-}
-
 .userBlock1 img {
     width: 40px;
     height: 40px;

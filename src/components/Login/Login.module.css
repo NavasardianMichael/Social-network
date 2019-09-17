@@ -14,10 +14,15 @@
     border: unset;
 }
 
-.errorMessage {
-    color: red
+.loginArea span, .errorMessage {
+	color: red;
+	margin-left: 10px
 }
 
 .rememberMeCheckbox input {
     display: inline;
+}
+
+.loginArea h2 {
+	margin: 10px;
 }

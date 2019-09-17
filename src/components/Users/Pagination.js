@@ -20,7 +20,7 @@ const Pagination = (props) => {
 
         const setNextPageNumbersDecade = () => {
             
-            if (props.usersCount / props.pageSize / 10 < props.currentPageNumbersDecade) return;
+            if (props.usersCount / props.pageSize / 10 <= props.currentPageNumbersDecade) return;
             props.SetCurrentPageNumbersDecade(props.currentPageNumbersDecade+1)
         }
 
