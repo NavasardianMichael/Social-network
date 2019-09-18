@@ -1,4 +1,6 @@
 # Social-network
 
-For login please sign up here 
-https://social-network.samuraijs.com/signUp 
+For login please enter this 
+
+email: testingsocialnetworkapp@gmail.com
+password: socialnetworkapp
